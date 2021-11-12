@@ -1,27 +1,50 @@
-# Object Relational Mapping(ORM): E-Commerce Back End
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-### Link to walk-through video: https://drive.google.com/file/d/13KHLhfQ8bNXpVEN_AwM6bnGlhsrH2EAR/view
-
-### Link to Github Repo: https://github.com/karlagoo/ORM
-
+# E-Commerce Back End
+            
 ## Description
-```
-an Express.js API that utilizes Sequelize to interact with a MySQL database
-```
+a back end for an e-commerce website that uses Express.js API and Sequelize to interact with a MySQL database
 
-
-## User Story
-As a manager at an internet retail company I want a back end for my e-commerce website that uses the latest technologies SO THAT my company can compete with other e-commerce companies
-
-
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Link to Videos](#videos)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
+            
+## Installation
+First, install MySQL2 and Sequelize packages Express.js API to use Sequelize to interact with the MySQL database and the dotenv package to use environment variables to store sensitive data. You will also need to create a .env file, define DB_NAME = ecommerce_db which is the name of the database, define DB_USER with your MySQL username or root, and define DB_PW with your MySQL password. 
+            
 ## Usage
-* Application allows user to view all Products, Categories, and Tags databases or search by ID
-* Users are able to create, delete, update Products, Categories, and Tags databases
+Use the schema.sql file in the db folder to create your database with MySQL shell commands. Enter npm run seed to seed data to your database with sample data.
 
+## Videos
+Link below demonstrates how to create the schema from the MySQL shell, how to seed the database from the command line, and how to start the application’s server.
 
-## Screenshots
-<img width="1140" alt="Screen Shot 2021-09-11 at 10 26 05 PM" src="https://user-images.githubusercontent.com/84356242/132971046-ca9fd914-2b6d-4eef-8588-6bb61718fe9f.png">
-<img width="1146" alt="Screen Shot 2021-09-11 at 10 25 20 PM" src="https://user-images.githubusercontent.com/84356242/132971051-2c11dba7-9776-4112-8c4c-43fed45f460b.png">
+https://drive.google.com/file/d/1l92AY4rvXk0wpDn0YeJiuAux6q-nHaW1/view
 
-## Contributor:
-Karla Goo © All Rights Reserved
+Link below demonstrates GET routes for all categories, all products, all tags, GET routes for a single category, a single product, and a single tag being tested in Insomnia Core.
+
+https://drive.google.com/file/d/1fxs8RkKZ_WeXxSwJVxCGAnFkdapmsaUd/view
+
+Link below demonstrates POST, PUT, and DELETE routes for categories, products, and tags being tested in Insomnia Core.
+
+https://drive.google.com/file/d/1VMBOnBe8kZ5oW7z9H-oGmY-Qh_IRDuIR/view
+            
+## License
+Licensed under The MIT License
+            
+## Contributing
+MySQL2
+
+Sequelize
+
+Express.js
+
+Dotenv
+                 
+## Questions
+Github: https://github.com/ronarceo
+
+Email: ronaldmarceo@gmail.com
